@@ -32,6 +32,18 @@ This project addresses these by:
 - Slow-moving inventory ties up millions in unsold stock → optimize purchase and storage strategy  
 - Low-performing vendors often have higher margins but weaker sales → pricing and distribution need improvement  
 
+## Files
+
+| File                               | Purpose                                              |
+|------------------------------------|------------------------------------------------------|
+| `Ingestion_db.py`                  | Loads CSVs into SQLite with logging and error handling |
+| `EDA.ipynb`                        | Cleans and explores data using Pandas and SQL        |
+| `Vendor_Performance_Analysis.ipynb`| Analyzes vendor/brand-level performance              |
+| `inventory.db`                     | Final database used for querying and analysis        |
+| `vendor_sales_summary.csv`         | Merged and cleaned (summarized) data for insights    |
+| `Workflow.png`                     | Project flow diagram                                 |
+| `Dashboard.pbix`                   | Interactive Power BI dashboard                       |
+
 ## Deliverables
 - Vendor performance summary CSV
 - Power BI Dashboard
