@@ -3,13 +3,17 @@
 ## Overview
 This project focuses on analyzing vendor performance based on sales data. It involves data ingestion, cleaning, exploratory data analysis (EDA), automation of summary generation, and dashboard development using Power BI. The project concludes with a comprehensive report containing actionable insights.
 
-
-## Key Features
-- Automated ingestion and cleaning of vendor sales data
-- Detailed Exploratory Data Analysis (EDA) to identify trends and patterns
-- Python scripts for automated vendor summary reports
-- Interactive and visually rich dashboard built using Power BI
-- Finalized insights compiled in a professional PDF report
+## Workflow
+1. Ingest Data
+   Load CSVs into SQLite using Python. Handles large files and logs each step.
+2. Clean + Analyze
+   Use SQL and Pandas to explore, join, and clean the data.
+3. Generate Insights
+   Detailed Exploratory Data Analysis (EDA) to identify trends and patterns and Calculate KPIs like margins, sales, stuck inventory, and vendor-level performance.
+4. Visualize
+   Build a Power BI dashboard that’s easy to read and ready for business users.
+5. Report
+   Finalized insights compiled in a PDF report
 
 ## Business Problem
 Effective inventory and sales management is critical in the retail/wholesale industry.  
